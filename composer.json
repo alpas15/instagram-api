@@ -1,0 +1,33 @@
+{
+  "name": "alpas/instagram",
+  "type": "package",
+  "description": "An easy-to-use PHP Class for accessing Instagram's API.",
+  "keywords": [
+    "instagram",
+    "api"
+  ],
+  "homepage": "https://bitbucket.org/Alexandr_P/instagram-api",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexandr",
+      "email": "pastuhov.alexandr@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "alpas\\Instagram\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.4-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
